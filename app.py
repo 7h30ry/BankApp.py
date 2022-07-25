@@ -244,14 +244,14 @@ def login():
     Button(login_screen,text="Login",font=('Calibri',12),command=login_session, width=15).grid(row=3,sticky=W,pady=5,padx=5)
 
 #Image import
-img = Image.open("V-Bank.png")
-img = img.resize((150,150))
-img = ImageTk.PhotoImage(img)
+#img = Image.open("V-Bank.png")
+#img = img.resize((150,150))
+#img = ImageTk.PhotoImage(img)
 
 #Labels
 Label(master, text="Custom Banking Beta", font=('Calibri',14)).grid(row=0,sticky=N,pady=10)
 Label(master, text="The most secure banking app", font=('Calibri',12)).grid(row=1,sticky=N)
-Label(master, image=img).grid(row=2,sticky=N,pady=15)
+#Label(master, image=img).grid(row=2,sticky=N,pady=15)
 
 #Buttons
 Button(master, text="Register", font=('Calibri',12), width=20, command=register).grid(row=3,sticky=N)
